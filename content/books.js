@@ -34,7 +34,7 @@ export const books = [
     subtitle: "Finding and walking in God’s will for every season of life.",
     description:
       "This book inspires you to live in the knowledge of Christ's provision for every believer, and in the authority of Christ's power.",
-    cover: "/images/con.jpeg",
+    cover: "/images/spirit.jpeg",
     coverColor: "from-brand-500/20 via-brand-500/10 to-slate-900",
     audience: [
       "Believers seeking clarity about God’s will for their lives",
