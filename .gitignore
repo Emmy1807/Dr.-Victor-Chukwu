@@ -1,0 +1,18 @@
+## Dependencies
+/node_modules
+
+## Next.js build output
+/.next
+/out
+
+## Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+## Prisma
+/prisma/migrations
+/app/generated/prisma
+
+## Misc
+.DS_Store
