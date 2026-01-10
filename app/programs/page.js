@@ -58,7 +58,7 @@ export default function ProgramsPage() {
                   rel="noopener noreferrer"
                   className="inline-flex w-fit rounded-md border border-cyan-400 px-6 py-2 text-sm font-semibold text-cyan-400 hover:bg-cyan-400/10"
                 >
-                  Learn More
+                  Apply for the Program
                 </a>
               )}
 
@@ -69,7 +69,7 @@ export default function ProgramsPage() {
                   rel="noopener noreferrer"
                   className="inline-flex w-fit rounded-md border border-cyan-400 px-6 py-2 text-sm font-semibold text-cyan-400 hover:bg-cyan-400/10"
                 >
-                  Learn More
+                  Apply for the Program
                 </a>
               )}
             </div>
