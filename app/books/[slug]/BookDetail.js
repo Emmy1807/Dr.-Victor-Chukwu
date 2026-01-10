@@ -128,30 +128,34 @@ export default function BookDetail({ book }) {
 
         <div
           id="free-sample"
-          className="mt-12 rounded-3xl border border-amber-500/30 bg-slate-900/60 p-6 md:mt-24"
+          className="group relative mt-12 overflow-hidden rounded-3xl border border-amber-500/25 bg-gradient-to-br from-slate-900/70 via-slate-950 to-black p-6 shadow-[0_18px_45px_rgba(0,0,0,0.85)] transform transition-all duration-500 hover:-translate-y-1 hover:border-amber-400/60 hover:shadow-[0_24px_70px_rgba(0,0,0,0.95)] md:mt-24"
         >
-          <h2 className="text-lg font-semibold">Read the first chapter free</h2>
-          <p className="mt-2 text-xs text-slate-300">
-            Enter your name and email to receive a free sample chapter of this
-            book by email.
-          </p>
-          <button
-            type="button"
-            onClick={() => {
-              setIsModalOpen(true);
-              setStatus("idle");
-              setMessage("");
-            }}
-            className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-amber-400 px-4 py-2 text-xs font-medium text-slate-950 hover:bg-amber-300"
-          >
-            Read free sample
-          </button>
-          {status === "success" && message && (
-            <p className="mt-3 text-xs text-emerald-300">{message}</p>
-          )}
-          {status === "error" && message && (
-            <p className="mt-3 text-xs text-red-400">{message}</p>
-          )}
+          <div className="pointer-events-none absolute inset-0 rounded-3xl bg-gradient-to-tr from-amber-400/12 via-transparent to-cyan-400/12 opacity-0 transition-opacity duration-700 group-hover:opacity-100" />
+
+          <div className="relative z-10">
+            <h2 className="text-lg font-semibold md:text-xl">Read the first chapter free</h2>
+            <p className="mt-2 text-xs text-slate-300 md:text-[13px]">
+              Enter your name and email to receive a free sample chapter of this
+              book by email.
+            </p>
+            <button
+              type="button"
+              onClick={() => {
+                setIsModalOpen(true);
+                setStatus("idle");
+                setMessage("");
+              }}
+              className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-amber-400 px-4 py-2 text-xs font-semibold text-slate-950 transition hover:bg-amber-300 md:w-auto md:px-6"
+            >
+              Read free sample
+            </button>
+            {status === "success" && message && (
+              <p className="mt-3 text-xs text-emerald-300">{message}</p>
+            )}
+            {status === "error" && message && (
+              <p className="mt-3 text-xs text-red-400">{message}</p>
+            )}
+          </div>
         </div>
       </section>
       {isModalOpen && (
