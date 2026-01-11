@@ -3,6 +3,7 @@
 import { signIn, signOut, useSession } from "next-auth/react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { FcGoogle } from "react-icons/fc";
 
 export default function SignInPage() {
   const { data: session } = useSession();
@@ -109,6 +110,17 @@ export default function SignInPage() {
             />
           </div>
 
+          <div className="flex items-center justify-between text-xs text-slate-400">
+            <span>
+              <a
+                href="/auth/forgot-password"
+                className="text-cyan-400 hover:text-cyan-300 hover:underline"
+              >
+                Forgot password?
+              </a>
+            </span>
+          </div>
+
           <button
             type="submit"
             disabled={loading}
@@ -131,16 +143,8 @@ export default function SignInPage() {
           onClick={() => signIn("google")}
           className="flex w-full items-center justify-center gap-3 rounded-md bg-white py-3 text-sm font-semibold text-black hover:bg-slate-100 transition-colors"
         >
-          <img src="/icons/google.svg" alt="" className="h-5" />
+          <FcGoogle />
           <span>Log in with Google</span>
-        </button>
-
-        <button
-          onClick={() => signIn("facebook")}
-          className="flex w-full items-center justify-center gap-3 rounded-md bg-blue-600 py-3 text-sm font-semibold text-white hover:bg-blue-700 transition-colors"
-        >
-          <img src="/icons/facebook.svg" alt="" className="h-5" />
-          <span>Log in with Facebook</span>
         </button>
       </div>
     </div>

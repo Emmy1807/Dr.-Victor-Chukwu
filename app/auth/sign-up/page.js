@@ -138,16 +138,8 @@ export default function SignUpPage() {
           onClick={() => signIn("google")}
           className="flex w-full items-center justify-center gap-3 rounded-md bg-white py-3 text-sm font-semibold text-black hover:bg-slate-100 transition-colors"
         >
-          <img src="/icons/google.svg" alt="" className="h-5" />
+          <img src="/icons/google.svg" alt="Google logo" className="h-5" />
           <span>Sign up with Google</span>
-        </button>
-
-        <button
-          onClick={() => signIn("facebook")}
-          className="flex w-full items-center justify-center gap-3 rounded-md bg-blue-600 py-3 text-sm font-semibold text-white hover:bg-blue-700 transition-colors"
-        >
-          <img src="/icons/facebook.svg" alt="" className="h-5" />
-          <span>Sign up with Facebook</span>
         </button>
       </div>
     </div>
