@@ -12,8 +12,8 @@ export const programs = [
   {
     slug: "pre-marital-counselling",
     title: "Pre-marital Counselling",
-    priceLabel: "$500.00",
-    duration: "56 Days",
+    priceLabel: "",
+    duration: "8-12 weeks",
     description:
       "Biblical counseling sessions designed to prepare couples for a strong, Christ-centered marriage.",
     cover: "/images/file (2).png",
