@@ -47,9 +47,11 @@ model User {
   emailVerified DateTime?
   image         String?
   password      String?
+  role          String    @default("USER")
   posts         Post[]
   accounts      Account[]
   sessions      Session[]
+  createdAt     DateTime  @default(now())
 }
 
 model VerificationToken {
@@ -61,10 +63,16 @@ model VerificationToken {
 }
 
 model Post {
-  id        Int     @id @default(autoincrement())
-  title     String
-  content   String?
-  published Boolean @default(false)
-  author    User    @relation(fields: [authorId], references: [id])
-  authorId  String
+  id          Int      @id @default(autoincrement())
+  title       String
+  slug        String   @unique
+  content     String
+  excerpt     String?
+  cover       String?
+  category    String?
+  readingTime String?
+  published   Boolean  @default(false)
+  publishedAt DateTime @default(now())
+  author      User     @relation(fields: [authorId], references: [id])
+  authorId    String
 }

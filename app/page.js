@@ -25,12 +25,12 @@ export default function HomePage() {
             >
               Explore books
             </Link>
-            <Link
+            {/* <Link
               href="/blog"
               className="rounded-full border border-slate-600 px-5 py-2 text-sm font-medium text-slate-100 hover:border-amber-400"
             >
               Read the blog
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="rounded-3xl overflow-hidden">

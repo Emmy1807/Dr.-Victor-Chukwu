@@ -8,7 +8,6 @@ const primaryNav = [
   { href: "/books", label: "Books" },
   { href: "/media", label: "Talks & Songs" },
   { href: "/programs", label: "Programs" },
-  { href: "/blog", label: "Blog" },
 ];
 
 const secondaryNav = [
