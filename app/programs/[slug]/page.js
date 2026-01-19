@@ -41,7 +41,9 @@ export default function ProgramDetailPage({ params }) {
       <section className="space-y-4">
         <p className="text-lg font-semibold">{program.priceLabel}</p>
         <Link
-          href={`/programs/${program.slug}/apply`}
+          href={program.link}
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex rounded-full bg-cyan-400 px-6 py-2 text-sm font-semibold text-black hover:bg-cyan-300"
         >
           Apply for this program

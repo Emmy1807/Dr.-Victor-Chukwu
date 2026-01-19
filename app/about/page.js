@@ -192,9 +192,9 @@ export default function AboutPage() {
               <p className="text-xl font-semibold text-white">
                 victorochukwu@gmail.com
               </p>
-              <p className="text-xl font-semibold text-white">
+              {/* <p className="text-xl font-semibold text-white">
                 405-762-2556
-              </p>
+              </p> */}
             </div>
           </div>
         </section>
