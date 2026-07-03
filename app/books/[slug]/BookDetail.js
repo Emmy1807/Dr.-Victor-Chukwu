@@ -64,6 +64,8 @@ export default function BookDetail({ book }) {
               <a
                 key={link.url}
                 href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full bg-amber-400 px-4 py-2 font-medium text-slate-950 hover:bg-amber-300"
               >
                 {link.label}

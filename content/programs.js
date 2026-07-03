@@ -6,7 +6,7 @@ export const programs = [
     duration: null,
     description:
       "A structured mentorship program designed to guide believers in purpose, growth, and spiritual maturity.",
-    cover: "/images/file (1).png",
+    cover: "/images/5-laws-of-communication.png",
     cta: "View Details",
     link: "https://www.peacementorship.org",
   },
@@ -17,7 +17,7 @@ export const programs = [
     duration: "8-12 weeks",
     description:
       "Biblical counseling sessions designed to prepare couples for a strong, Christ-centered marriage.",
-    cover: "/images/file (2).png",
+    cover: "/images/30-day-honeymoon-devotional.png",
     cta: "View Details",
     link: "https://www.peacemarriage.org",
   },

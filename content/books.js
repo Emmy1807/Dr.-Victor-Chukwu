@@ -25,7 +25,11 @@ export const books = [
     buyLinks: [
       {
         label: "Buy on Amazon",
-        url: "https://a.co/d/1TPOysT",
+        url: "https://www.amazon.com/dp/B0GFL9VFWQ?ref=cm_sw_r_ffobk_cso_cp_apin_dp_ET5J8C6HQN8J41MC0S4T&ref_=cm_sw_r_ffobk_cso_cp_apin_dp_ET5J8C6HQN8J41MC0S4T&social_share=cm_sw_r_ffobk_cso_cp_apin_dp_ET5J8C6HQN8J41MC0S4T&bestFormat=true&titleSource=true",
+      },
+      {
+        label: "Download Now",
+        url: "https://selar.com/m/victorchukwu",
       },
     ],
     freeSample: {
@@ -58,7 +62,11 @@ export const books = [
     buyLinks: [
       {
         label: "Buy on Amazon",
-        url: "https://a.co/d/9CtcQlN",
+        url: "https://www.amazon.com/dp/B0GD2L17ZX?ref=cm_sw_r_ffobk_cso_cp_apin_dp_03R2QQ5Z6JJQ0VMM9CA9&ref_=cm_sw_r_ffobk_cso_cp_apin_dp_03R2QQ5Z6JJQ0VMM9CA9&social_share=cm_sw_r_ffobk_cso_cp_apin_dp_03R2QQ5Z6JJQ0VMM9CA9&bestFormat=true",
+      },
+      {
+        label: "Download Now",
+        url: "https://selar.com/m/victorchukwu",
       },
     ],
     freeSample: {
@@ -93,6 +101,10 @@ export const books = [
         label: "Buy on Amazon",
         url: "https://www.amazon.com/dp/B0FLYFRK4X?ref=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&ref_=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&social_share=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&bestFormat=true&csmig=1",
       },
+      {
+        label: "Download Now",
+        url: "https://selar.com/m/victorchukwu",
+      },
     ],
     freeSample: {
       file: "the-will-of-god.pdf",
@@ -126,12 +138,15 @@ export const books = [
         label: "Buy on Amazon",
         url: "https://www.amazon.com/dp/B0FLYFRK4X?ref=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&ref_=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&social_share=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&bestFormat=true&csmig=1",
       },
+      {
+        label: "Download Now",
+        url: "https://selar.com/m/victorchukwu",
+      },
     ],
     freeSample: {
       file: "the-spirit-that-conquers.pdf",
     },
   },
-
   {
     slug: "making-life-changing-decisions",
     title: "Making Life-Changing Decisions",
@@ -160,9 +175,77 @@ export const books = [
         label: "Buy on Amazon",
         url: "https://www.amazon.com/dp/B0FLYFRK4X?ref=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&ref_=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&social_share=cm_sw_r_ffobk_cp_ud_dp_CR518GC7Y65QVV7XZ81H&bestFormat=true&csmig=1",
       },
+      {
+        label: "Download Now",
+        url: "https://selar.com/m/victorchukwu",
+      },
     ],
     freeSample: {
       file: "making-life-changing-decisions.pdf",
     },
   },
+  {
+    slug: "5-laws-of-communication-in-marriage",
+    title: "5 Laws of Communication in Marriage",
+    subtitle: "How to Truly Hear, Understand, and Connect with Your Spouse",
+    description:
+      "Effective communication is the lifeblood of any healthy marriage. Discover the foundational laws of communication that can transform your marriage, build deeper intimacy, and connect on a profound level with your spouse.",
+    longDescription:
+      "In '5 Laws of Communication in Marriage', Dr. Victor Chukwu provides practical, actionable insights to help couples truly hear and understand each other. This book breaks down complex relational dynamics into simple, biblical principles that foster connection and intimacy. Whether you are newlyweds looking to build a strong foundation or a mature couple seeking to reignite your bond, these five laws will equip you with the tools needed for lasting marital joy.",
+    cover: "/images/WhatsApp Image 2026-06-29 at 19.32.54.jpeg",
+    coverColor: "from-brand-500/20 via-brand-500/10 to-slate-900",
+    audience: [
+      "Married couples seeking better communication",
+      "Engaged couples preparing for marriage",
+      "Anyone looking to deepen intimacy in their relationship",
+    ],
+    learn: [
+      "How to truly hear what your spouse is saying",
+      "Overcoming common communication barriers",
+      "Building trust and vulnerability through words",
+      "Resolving conflicts with grace and understanding",
+    ],
+    buyLinks: [
+      {
+        label: "Buy on Amazon",
+        url: "https://a.co/d/00bn2Lap",
+      },
+      {
+        label: "Download Now",
+        url: "https://selar.com/m/victorchukwu",
+      },
+    ],
+  },
+  {
+    slug: "30-day-honeymoon-devotional",
+    title: "30-Day Honeymoon Devotional",
+    subtitle: "For Couples Beginning their Journey Together",
+    description:
+      "Start your marriage on a strong spiritual foundation with this 30-day devotional. Designed specifically for newlyweds, it offers daily reflections, prayers, and insights to help you build a Christ-centered relationship from day one.",
+    longDescription:
+      "The honeymoon phase is a beautiful beginning, but building a lasting marriage requires intentionality. This '30-Day Honeymoon Devotional' by Dr. Victor Chukwu is crafted to guide newlyweds through their first month of marriage with daily biblical wisdom. Each day features a short devotional, reflection questions, and a prayer to help couples align their hearts with God and each other. By establishing these spiritual habits early, you will set the tone for a lifetime of love, joy, and mutual submission under Christ.",
+    cover: "/images/WhatsApp Image 2026-06-29 at 19.33.54.jpeg",
+    coverColor: "from-brand-500/20 via-brand-500/10 to-slate-900",
+    audience: [
+      "Newlyweds",
+      "Engaged couples",
+      "Pastors and counselors looking for wedding gifts",
+    ],
+    learn: [
+      "Establishing daily spiritual habits as a couple",
+      "Navigating the transition into married life",
+      "Building a Christ-centered home",
+      "Praying together with power and purpose",
+    ],
+    buyLinks: [
+      {
+        label: "Buy on Amazon",
+        url: "https://a.co/d/0everZPC",
+      },
+      {
+        label: "Download Now",
+        url: "https://selar.com/m/victorchukwu",
+      },
+    ],
+  }
 ];
